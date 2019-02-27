@@ -1,0 +1,210 @@
+{
+    "header": {
+        "name": "Denis Bergeron",
+        "title": "Software Architect",
+        "description": "with over ten years of experience in full stack development, system design and cloud computing."
+    },
+    "about": {
+        "name": "Denis Bergeron",
+        "address": "756 Grierson street Oshawa, Ontario, L1G5J7",
+        "phone": "(647) 230-2451",
+        "email": "denis.bergeron@gmail.com",
+        "me": ""
+    },
+    "social": {
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "",
+        "instagram": "",
+        "github": "https://github.com/d3berger",
+        "skype": ""
+    },
+    "resume": {
+        "education": [
+            {
+                "institute": "Udemy Course",
+                "location": "https://www.udemy.com/react-the-complete-guide-incl-redux/",
+                "title": "React 16​ - The complete guide (inc. React Router 4 and Redux)",
+                "date": "Nov 2018"
+            },
+            {
+                "institute": "Udemy Course",
+                "location": "https://www.udemy.com/react-native-the-practical-guide/",
+                "title": "React Native​ - The practical guide",
+                "date": "Feb 2019"
+            },
+            {
+                "institute": "Udemy Course",
+                "location": "https://www.udemy.com/go-the-complete-developers-guide/",
+                "title": "GO​: The complete developers guide (Golang)",
+                "date": "Oct 2018"
+            },
+            {
+                "institute": "Online course by Nick Janetakis",
+                "location": "https://diveintodocker.com/",
+                "title": "Dive Into Docker",
+                "date": "June 2017"
+            },
+            {
+                "institute": "MongoDB University",
+                "location": "https://university.mongodb.com/courses/M101P/about",
+                "title": "M101P: MongoDB for Developers",
+                "date": "Feb 2017"
+            },
+            {
+                "institute": "Ryerson University",
+                "location": "https://www.ryerson.ca/programs/undergraduate/computer-science/",
+                "title": "Graduate degree, bachelor of science, applied computer science",
+                "date": "May 2007"
+            },
+            {
+                "institute": "The Institute for Computer Studies",
+                "location": "http://www.companylisting.ca/The_Institute_for_Computer_Studies/default.aspx",
+                "title": "Graduate diploma, E-Commerce solutions developer",
+                "date": "Jun 2003"
+            }
+        ],
+        "work": [
+            {
+                "employer": "Mundo Media Ltd",
+                "location": " Richmond Hill Ontario",
+                "description": "Mundo Media is a digital marketing agency operating in the field of online marketing.",
+                "position": [
+                    {
+                        "title": "Architect - DevOps",
+                        "duration": "July 2015 - Jan 2019",
+                        "details": "As architect I was tasked with scaling the applications, creating blueprints for new tasks and projects as well as modernize existing legacy systems. As DevOps I was responsible for managing and deploying the applications as well as working with cloud infrastructure to run the applications."
+                    },
+                    {
+                        "title": "Senior Application Developer - Team Lead",
+                        "duration": "Feb 2013 - June 2015",
+                        "details": "As senior application developer I was responsible for development on the most difficult tasks in each project. As team lead I was responsible for managing a team of 4 to 6 developers to discuss details of tasks, create a project workflows as well as provide guidance to team members."
+                    },
+                    {
+                        "title": "Application Developer",
+                        "duration": "June 2010 - Jan 2013",
+                        "details": "As application developer I was responsible for working on development tasks alone and with a team of 2 to 4 members."
+                    }
+                ]
+            },
+            {
+                "employer": "Acuity Ads Inc",
+                "location": "North York Ontario",
+                "description": "Acuity Ads is an digital media buying company operating in field of online marketing.",
+                "position": [
+                    {
+                        "title": "Web Developer",
+                        "duration": "Nov 2009 - June 2010",
+                        "details": "As web developer I was responsible for working on development tasks as well as help non developers integrate and manage the applications."
+                    }
+                ]
+            },
+            {
+                "employer": "CX Digital Media Inc",
+                "location": "Toronto Ontario",
+                "description": "CX Digital is a digital marketing agency operating in the field of online marketing.",
+                "position": [
+                    {
+                        "title": "Junior Application Developer",
+                        "duration": "June 2007 - Aug 2009",
+                        "details": "As junior application developer I was responsible for working on development tasks alone and with a team of 2 to 4 members."
+                    }
+                ]
+            }
+        ],
+        "skills": [
+            {
+                "name": "PHP",
+                "years": "12"
+            },
+            {
+                "name": "MySQL",
+                "years": "12"
+            },
+            {
+                "name": "HTML",
+                "years": "12"
+            },
+            {
+                "name": "Zend Framework",
+                "years": "10"
+            },
+            {
+                "name": "JavaScript",
+                "years": "10"
+            },
+            {
+                "name": "JQuery",
+                "years": "8"
+            },
+            {
+                "name": "Apache",
+                "years": "12"
+            },
+            {
+                "name": "Ubuntu",
+                "years": "12"
+            },
+            {
+                "name": "CentOS / RHEL",
+                "years": "8"
+            },
+            {
+                "name": "NodeJS",
+                "years": "5"
+            },
+            {
+                "name": "BackboneJS",
+                "years": "5"
+            },
+            {
+                "name": "SailsJS",
+                "years": "5"
+            },
+            {
+                "name": "MongoDB",
+                "years": "4"
+            },
+            {
+                "name": "Nginx",
+                "years": "4"
+            },
+            {
+                "name": "AWS (EC2, S3, Route 53, RDS)",
+                "years": "5"
+            },
+            {
+                "name": "RabbitMQ",
+                "years": "5"
+            },
+            {
+                "name": "ElasticSearch",
+                "years": "3"
+            },
+            {
+                "name": "Redis",
+                "years": "2"
+            },
+            {
+                "name": "memcached",
+                "years": "3"
+            },
+            {
+                "name": "Golang",
+                "years": "1"
+            },
+            {
+                "name": "React",
+                "years": "1"
+            },
+            {
+                "name": "Redux",
+                "years": "1"
+            },
+            {
+                "name": "React Native",
+                "years": "1"
+            }
+        ]
+    }
+}
