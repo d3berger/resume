@@ -6,14 +6,16 @@ const education = (props) => {
         return <EducationItem profile={element} />
     })
     return (
-        <div class="row education">
-            <div class="three columns header-col">
-                <h1><span>Education</span></h1>
+        <section id="education">
+            <div class="row education">
+                <div class="three columns header-col">
+                    <h1><span>Education</span></h1>
+                </div>
+                <div class="nine columns main-col">
+                    {items}
+                </div>
             </div>
-            <div class="nine columns main-col">
-                {items}
-            </div>
-        </div>
+        </section>
     )
 }
 

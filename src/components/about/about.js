@@ -22,7 +22,7 @@ const about = (props) => {
                         </div>
                         <div className="columns download">
                             <p>
-                                <button className="button"><i className="fa fa-download" />Download Resume</button>
+                                <button className="button"><i className="fa fa-download" /><a href="https://docs.google.com/document/d/138ZdijbMrGNDe0jQkFMK46Hg8lyU6XwconDPcP-_beM/export?format=pdf" download>Download Resume</a></button>
                             </p>
                         </div>
                     </div>

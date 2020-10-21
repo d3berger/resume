@@ -1,12 +1,12 @@
 {
     "header": {
         "name": "Denis Bergeron",
-        "title": "Software Architect",
-        "description": "with over ten years of experience in full stack development, system design and cloud computing."
+        "title": " Software Architect ",
+        "description": " with over thirteen years of experience in full stack development, system design and cloud computing. "
     },
     "about": {
         "name": "Denis Bergeron",
-        "address": "756 Grierson street Oshawa, Ontario, L1G5J7",
+        "address": "121 Blackfriar Avenue Whitby ON L1M2C9",
         "phone": "(647) 230-2451",
         "email": "denis.bergeron@gmail.com",
         "me": ""
@@ -14,7 +14,7 @@
     "social": {
         "facebook": "",
         "twitter": "",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/denis-bergeron-2998136a",
         "instagram": "",
         "github": "https://github.com/d3berger",
         "skype": ""
@@ -66,6 +66,42 @@
         ],
         "work": [
             {
+                "employer": "Mullis",
+                "location": "Toronto Ontario",
+                "description": "Mullis is a small startup team of innovators who are building innovative new products. They produce visually pleasing and simple to use software for the internet and telephony market.",
+                "position": [
+                    {
+                        "title": "Independent Contractor",
+                        "duration": "July 2020 - Present",
+                        "details": "At Mullis I work independently to create an upcoming project that will be used to buy and sell advertising space such as billboards, social media or on radio and TV."
+                    }
+                ]
+            },
+            {
+                "employer": "Ravti Corp",
+                "location": "Florida United States",
+                "description": "Ravti is a commercial HVAC management, monitoring and compliance platform providing solutions to businesses that manage retail units.",
+                "position": [
+                    {
+                        "title": "Independent Contractor",
+                        "duration": "Jan 2020 - Present",
+                        "details": "At Ravti I work in a small team to update and maintain the internal administration as well as the customer facing interfaces. Adding new features and fulfilling requirements as needed."
+                    }
+                ]
+            },
+            {
+                "employer": "Telus Communications",
+                "location": "Scarborough Ontario",
+                "description": "Telus Communications is a Canadian national telecommunications company that provides a wide range of telecommunications products and services.",
+                "position": [
+                    {
+                        "title": "Contract Developer",
+                        "duration": "Mar 2019 - Dec 2010",
+                        "details": "At Telus I worked in a team of 4 to 6 developers to update and maintain an internal management system for cellular communication services called OneSite. I was also seen as a senior advisor to the junior developers, guiding them on proper code structure, formal processes and helping with development initiatives."
+                    }
+                ]
+            },
+            {
                 "employer": "Mundo Media Ltd",
                 "location": " Richmond Hill Ontario",
                 "description": "Mundo Media is a digital marketing agency operating in the field of online marketing.",
@@ -73,7 +109,7 @@
                     {
                         "title": "Architect - DevOps",
                         "duration": "July 2015 - Jan 2019",
-                        "details": "As architect I was tasked with scaling the applications, creating blueprints for new tasks and projects as well as modernize existing legacy systems. As DevOps I was responsible for managing and deploying the applications as well as working with cloud infrastructure to run the applications."
+                        "details": "As architect I was tasked with scaling the applications, creating blueprints for new tasks and projects as well as modernizing existing legacy systems. As DevOps I was responsible for managing and deploying the applications as well as working with cloud infrastructure to run the applications."
                     },
                     {
                         "title": "Senior Application Developer - Team Lead",
@@ -115,15 +151,15 @@
         "skills": [
             {
                 "name": "PHP",
-                "years": "12"
+                "years": "13"
             },
             {
                 "name": "MySQL",
-                "years": "12"
+                "years": "13"
             },
             {
                 "name": "HTML",
-                "years": "12"
+                "years": "13"
             },
             {
                 "name": "Zend Framework",
@@ -131,7 +167,7 @@
             },
             {
                 "name": "JavaScript",
-                "years": "10"
+                "years": "11"
             },
             {
                 "name": "JQuery",
@@ -143,31 +179,27 @@
             },
             {
                 "name": "Ubuntu",
-                "years": "12"
+                "years": "13"
             },
             {
                 "name": "CentOS / RHEL",
                 "years": "8"
             },
             {
-                "name": "NodeJS",
+                "name": "Node.js",
+                "years": "6"
+            },
+            {
+                "name": "Backbone.js",
                 "years": "5"
             },
             {
-                "name": "BackboneJS",
+                "name": "Sails.js",
                 "years": "5"
-            },
-            {
-                "name": "SailsJS",
-                "years": "5"
-            },
-            {
-                "name": "MongoDB",
-                "years": "4"
             },
             {
                 "name": "Nginx",
-                "years": "4"
+                "years": "5"
             },
             {
                 "name": "AWS (EC2, S3, Route 53, RDS)",
@@ -178,7 +210,15 @@
                 "years": "5"
             },
             {
+                "name": "MongoDB",
+                "years": "4"
+            },
+            {
                 "name": "ElasticSearch",
+                "years": "3"
+            },
+            {
+                "name": "memcached",
                 "years": "3"
             },
             {
@@ -186,23 +226,31 @@
                 "years": "2"
             },
             {
-                "name": "memcached",
-                "years": "3"
-            },
-            {
-                "name": "Golang",
-                "years": "1"
-            },
-            {
                 "name": "React",
-                "years": "1"
+                "years": "2"
             },
             {
                 "name": "Redux",
+                "years": "2"
+            },
+            {
+                "name": "Vue.js",
+                "years": "1"
+            },
+            {
+                "name": "Vuex",
+                "years": "1"
+            },
+            {
+                "name": "PostgreSQL",
                 "years": "1"
             },
             {
                 "name": "React Native",
+                "years": "1"
+            },
+            {
+                "name": "Go Lang",
                 "years": "1"
             }
         ]

@@ -5,11 +5,11 @@ import Skills from './skills'
 
 const resume = (props) => {
     return (
-        <section id="resume">
+        <div id="resume">
             <Education profile={props.profile.education} />
             <Work profile={props.profile.work} />
             <Skills profile={props.profile.skills} />
-        </section>
+        </div>
     )
 }
 

@@ -6,13 +6,14 @@ const footer = (props) => {
             <div className="row">
                 <div className="twelve columns">
                     <ul className="social-links">
-                        <li><a href="#"><i className="fa fa-facebook" />{props.profile.facebook}</a></li>
-                        <li><a href="#"><i className="fa fa-twitter" />{props.profile.twitter}</a></li>
-                        <li><a href="#"><i className="fa fa-google-plus" />{props.profile.googleplus}</a></li>
-                        <li><a href="#"><i className="fa fa-linkedin" />{props.profile.linkedin}</a></li>
-                        <li><a href="#"><i className="fa fa-instagram" />{props.profile.instagram}</a></li>
-                        <li><a href="#"><i className="fa fa-dribbble" />{props.profile.dribble}</a></li>
-                        <li><a href="#"><i className="fa fa-skype" />{props.profile.skype}</a></li>
+                        {props.social.facebook && <li><a href={props.social.facebook}><i className="fa fa-facebook" /></a></li>}
+                        {props.social.twitter && <li><a href={props.social.twitter}><i className="fa fa-twitter" /></a></li>}
+                        {props.social.googleplus && <li><a href={props.social.googleplus}><i className="fa fa-google-plus" /></a></li>}
+                        {props.social.linkedin && <li><a href={props.social.linkedin}><i className="fa fa-linkedin" /></a></li>}
+                        {props.social.instagram && <li><a href={props.social.instagram}><i className="fa fa-instagram" /></a></li>}
+                        {props.social.dribble && <li><a href={props.social.dribble}><i className="fa fa-dribbble" /></a></li>}
+                        {props.social.skype && <li><a href={props.social.skype}><i className="fa fa-skype" /></a></li>}
+                        {props.social.github && <li><a href={props.social.github}><i className="fa fa-github" /></a></li>}
                     </ul>
                     <ul className="copyright">
                         <li>© Copyright 2014 CeeVee</li>

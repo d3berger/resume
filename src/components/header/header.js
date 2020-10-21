@@ -9,28 +9,29 @@ const header = (props) => {
                 <ul id="nav" className="nav">
                     <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                     <li><a className="smoothscroll" href="#about">About</a></li>
-                    <li><a className="smoothscroll" href="#resume">Resume</a></li>
-                    {/* <li><a className="smoothscroll" href="#portfolio">Works</a></li> */}
-                    {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
+                    <li><a className="smoothscroll" href="#education">Education</a></li>
+                    <li><a className="smoothscroll" href="#work">Work</a></li>
+                    <li><a className="smoothscroll" href="#skills">Skills</a></li>
                     {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
                 </ul>
             </nav>
             <div className="row banner">
                 <div className="banner-text">
                     <h1 className="responsive-headline">{props.profile.name}</h1>
-                    <h3>I am a <span>{props.profile.title}</span>
-                    {props.profile.description} 
-                    Let's <a className="smoothscroll" href="#about">start scrolling</a>
-                        and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+                    <h3>
+                        <span>{props.profile.title}</span>
+                        {props.profile.description}
+                    </h3>
                     <hr />
                     <ul className="social">
-                        <li><a href="#"><i className="fa fa-facebook" />{props.social.facebook}</a></li>
-                        <li><a href="#"><i className="fa fa-twitter" />{props.social.twitter}</a></li>
-                        <li><a href="#"><i className="fa fa-google-plus" />{props.social.googleplus}</a></li>
-                        <li><a href="#"><i className="fa fa-linkedin" />{props.social.linkedin}</a></li>
-                        <li><a href="#"><i className="fa fa-instagram" />{props.social.instagram}</a></li>
-                        <li><a href="#"><i className="fa fa-dribbble" />{props.social.dribble}</a></li>
-                        <li><a href="#"><i className="fa fa-skype" />{props.social.skype}</a></li>
+                        {props.social.facebook && <li><a href={props.social.facebook}><i className="fa fa-facebook" /></a></li>}
+                        {props.social.twitter && <li><a href={props.social.twitter}><i className="fa fa-twitter" /></a></li>}
+                        {props.social.googleplus && <li><a href={props.social.googleplus}><i className="fa fa-google-plus" /></a></li>}
+                        {props.social.linkedin && <li><a href={props.social.linkedin}><i className="fa fa-linkedin" /></a></li>}
+                        {props.social.instagram && <li><a href={props.social.instagram}><i className="fa fa-instagram" /></a></li>}
+                        {props.social.dribble && <li><a href={props.social.dribble}><i className="fa fa-dribbble" /></a></li>}
+                        {props.social.skype && <li><a href={props.social.skype}><i className="fa fa-skype" /></a></li>}
+                        {props.social.github && <li><a href={props.social.github}><i className="fa fa-github" /></a></li>}
                     </ul>
                 </div>
             </div>
